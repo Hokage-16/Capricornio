@@ -20,10 +20,10 @@ class _LoginAppState extends State<LoginApp> {
           horizontal: 30.0,
           vertical: 80.0
         ),
-        children: <Widget>[
+        children: const <Widget>[
           Column(
             mainAxisAlignment: MainAxisAlignment.center,       
-            children:const [
+            children:[
               CircleAvatar(
               radius: 100.0,
               backgroundImage: AssetImage('images/logo.png'),
@@ -43,7 +43,7 @@ class _LoginAppState extends State<LoginApp> {
             color: Color.fromARGB(255, 76, 76, 83)
           ),
          ),
-         Formulario()
+         FormApp()
             ],
           )
         ],
